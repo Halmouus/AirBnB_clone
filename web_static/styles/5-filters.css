@@ -1,56 +1,49 @@
 .filters {
-    background-color: white;
+    color: white;
     height: 70px;
     width: 100%;
-    border: 1px #DDDDDD solid;
+    border: 1px solid #dddddd;
     border-radius: 4px;
-    text-align: right;
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
 }
-button {
+
+.filters button {
     font-size: 18px;
     background-color: #FF5A5F;
     color: #FFFFFF;
     height: 48px;
     width: 20%;
-    border: 0;
     border-radius: 4px;
-    margin: auto 30px;
-    margin-top: 11px;
+    margin-left: auto;
 }
 
-button:hover {
-    opacity: 90%;
+.filters button:hover {
+    opacity: 0.9;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.locations {
+.filters .locations {
     height: 100%;
-    width: 25%;
-    border-right: 1px #DDDDDD solid;
-    margin-left: 30px;
-    text-align: left;
-    float: left;
+    width: 20%;
+    border-right: #dddddd 1px solid;
 }
 
-.amenities {
+.filters .amenities {
     height: 100%;
-    width: 25%;
-    border-right: 1px #DDDDDD solid;
-    margin-left: 30px;
-    text-align: left;
-    float: left;
+    width: 20%;
 }
 
 h3 {
     font-weight: 600;
-    margin-top: 16px;
+    color: #484848;
+    padding-left: 30px;
 }
 
 h4 {
     font-weight: 400;
     font-size: 14px;
+    color: #484848;
+    padding-left: 30px;
+    margin-top: -8%;
 }

@@ -3,13 +3,14 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px #CCCCCC solid;
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .logo {
-    background: url(/web_static/images/logo.png) no-repeat center;
+    background: url(//wsl.localhost/Ubuntu-22.04/home/halmouus/AirBnB_clone/web_static/images/logo.png) center;
+    background-repeat: no-repeat;
     padding-left: 20px;
-    width: 120px;
+    width: 140px;
     height: 70px;
 }
